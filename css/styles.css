@@ -20,6 +20,10 @@
 .highlight {
     color: var(--main-color);
 }
+.highlight a {
+    color: var(--main-color);
+    text-decoration: none;
+}
 
 /*Containers*/
 #container {
@@ -123,7 +127,8 @@
 }
 
 .description {
-    max-width: 75%;
+    
+    max-width: 85%;
     margin-bottom: 10px;
 }
 
@@ -137,7 +142,7 @@
     text-decoration: none;
     transition: .5s;
     margin: 25px 0;
-    padding: 12px 10px;
+    padding: 15px 5px;
     width: 150px;
     text-align: center;
     display: flex;
@@ -217,10 +222,13 @@
     }
 
     #about-container .description {
+        text-align: justify;
         margin: 10px auto;
         max-width: 100%;
-        line-height: 26px;
+        line-height: 45px;
+
     }
+   
 
     #btn-projects {
         margin: 20px auto;
